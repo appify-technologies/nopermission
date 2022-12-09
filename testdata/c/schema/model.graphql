@@ -1,0 +1,19 @@
+type ObjectWithPermission @hasPermission(permissions: [{service: SERVICE, type: TYPE}]){
+    id: ID!
+    field: String!
+}
+
+type ObjectWithoutPermission {
+    id: ID!
+    field: String!
+}
+
+interface InterfaceWithPermission @hasPermission(permissions: [{service: SERVICE, type: TYPE}]) {
+    id: ID!
+    field: String!
+}
+
+interface InterfaceWithoutPermission {
+    id: ID!
+    field: String!
+}

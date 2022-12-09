@@ -1,0 +1,14 @@
+input Permission {
+    service: PermittedService!
+    type: PermittedType!
+}
+
+enum PermittedService {
+    SERVICE
+}
+
+enum PermittedType {
+    TYPE
+}
+
+directive @hasPermission(permissions: [Permission!]!) on OBJECT | INTERFACE
