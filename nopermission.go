@@ -18,18 +18,21 @@ func Analyzer(excludes string) *gqlanalysis.Analyzer {
 
 func run(excludes string) func(pass *gqlanalysis.Pass) (interface{}, error) {
 	return func(pass *gqlanalysis.Pass) (interface{}, error) {
+		rules := make([]*regexp.Regexp, 0)
+		for _, excluded := range strings.Split(excludes, ",") {
+			if len(excluded) > 0 {
+				rules = append(rules, regexp.MustCompile(excluded))
+			}
+		}
+
 		for _, t := range pass.Schema.Types {
 			if t.BuiltIn {
 				continue
 			}
 			exclude := false
-			for _, rule := range strings.Split(excludes, ",") {
-				if len(rule) > 0 {
-					regex := regexp.MustCompile(rule)
-
-					if regex.MatchString(t.Name) {
-						exclude = true
-					}
+			for _, rule := range rules {
+				if rule.MatchString(t.Name) {
+					exclude = true
 				}
 			}
 			if exclude {
