@@ -11,7 +11,7 @@ import (
 func Analyzer(excludes string) *gqlanalysis.Analyzer {
 	return &gqlanalysis.Analyzer{
 		Name: "nopermission",
-		Doc:  "nopermission finds id fields with no id directive.",
+		Doc:  "nopermission finds types and interfaces with no id directive.",
 		Run:  run(excludes),
 	}
 }

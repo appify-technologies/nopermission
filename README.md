@@ -2,7 +2,7 @@
 
 [![pkg.go.dev][gopkg-badge]][gopkg]
 
-`nopermission` finds id fields with no @hasPermission directive in your GraphQL schema files.
+`nopermission` finds types and interfaces with no @hasPermission directive in your GraphQL schema files.
 
 ```graphql
 type ObjectWithoutPermission { # want "ObjectWithoutPermission has no hasPermission directive"
