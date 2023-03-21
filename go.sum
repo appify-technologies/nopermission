@@ -1,5 +1,5 @@
-github.com/Yamashou/gqlgenc v0.11.1 h1:eJbDHLYfZuGtzsBQd2NYuLF+CZ2nCq8EK/O8lgB5teQ=
-github.com/Yamashou/gqlgenc v0.11.1/go.mod h1:xxbfApjwVVo01OaAcyeMITA7G4rqqI58CUW0a4X4S/g=
+github.com/Yamashou/gqlgenc v0.12.0 h1:HoKs8HH0UK58TZ/XA/J4tUeI/zLFu5nLnENxTsLV23M=
+github.com/Yamashou/gqlgenc v0.12.0/go.mod h1:+z+FRCtGrNmgTxweAUiCodOmQJLTCNtnRNAqhewf1Q8=
 github.com/agnivade/levenshtein v1.0.1/go.mod h1:CURSv5d9Uaml+FovSIICkLbAUZ9S4RqaHDIsdSBg7lM=
 github.com/agnivade/levenshtein v1.1.1 h1:QY8M92nrzkmr798gCo3kmMyqXFzdQVpxLlGPRBij0P8=
 github.com/agnivade/levenshtein v1.1.1/go.mod h1:veldBMzWxcCG2ZvUTKD2kJNRdCk5hVbJomOvKkmgYbo=
@@ -20,8 +20,8 @@ github.com/josharian/txtarfs v0.0.0-20210615234325-77aca6df5bca h1:a8xeK4GsWLE4L
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
-github.com/mattn/go-zglob v0.0.3 h1:6Ry4EYsScDyt5di4OI6xw1bYhOqfE5S33Z1OPy+d+To=
-github.com/mattn/go-zglob v0.0.3/go.mod h1:9fxibJccNxU2cnpIKLRRFA7zX7qhkJIQWBb449FYHOo=
+github.com/mattn/go-zglob v0.0.4 h1:LQi2iOm0/fGgu80AioIJ/1j9w9Oh+9DZ39J4VAGzHQM=
+github.com/mattn/go-zglob v0.0.4/go.mod h1:MxxjyoXXnMxfIpxTK2GAkw1w8glPsQILx3N5wrKakiY=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sergi/go-diff v1.1.0 h1:we8PVUC3FE2uYfodKH/nBHMSetSfHDR6scGdBi+erh0=

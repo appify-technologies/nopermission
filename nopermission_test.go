@@ -3,7 +3,7 @@ package nopermission_test
 import (
 	"testing"
 
-	"github.com/appify-technologies/nopermission"
+	"github.com/builtbystack/nopermission"
 	"github.com/gqlgo/gqlanalysis/analysistest"
 )
 

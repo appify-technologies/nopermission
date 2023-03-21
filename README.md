@@ -21,7 +21,7 @@ package main
 
 import (
 	"flag"
-	"github.com/appify-technologies/nopermission"
+	"github.com/builtbystack/nopermission"
 	"github.com/gqlgo/gqlanalysis/multichecker"
 )
 
@@ -41,7 +41,7 @@ func main() {
 `nopermission` provides a typical main function and you can install with `go install` command.
 
 ```sh
-$ go install github.com/appify-technologies/nopermission/cmd/nopermission@latest
+$ go install github.com/builtbystack/nopermission/cmd/nopermission@latest
 ```
 
 The `nopermission` command has a flag, `schema` which will be parsed and analyzed by nopermission's Analyzer.
@@ -54,8 +54,8 @@ The default value of `schema` is "schema/*/**.graphql".
 
 ## Author
 
-[![Appify Technologies, Inc.](appify-logo.png)](http://github.com/appify-technologies)
+[![Appify Technologies, Inc.](appify-logo.png)](http://github.com/builtbystack)
 
 <!-- links -->
-[gopkg]: https://pkg.go.dev/github.com/appify-technologies/nopermission
-[gopkg-badge]: https://pkg.go.dev/badge/github.com/appify-technologies/nopermission?status.svg
+[gopkg]: https://pkg.go.dev/github.com/builtbystack/nopermission
+[gopkg-badge]: https://pkg.go.dev/badge/github.com/builtbystack/nopermission?status.svg

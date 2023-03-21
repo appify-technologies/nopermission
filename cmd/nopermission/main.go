@@ -2,7 +2,7 @@ package main
 
 import (
 	"flag"
-	"github.com/appify-technologies/nopermission"
+	"github.com/builtbystack/nopermission"
 	"github.com/gqlgo/gqlanalysis/multichecker"
 )
 
